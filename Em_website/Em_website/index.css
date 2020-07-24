@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  margin: auto 200px;
+  margin-bottom: 25px;
+}
+
+header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+#left-header {
+  vertical-align: middle;
+  margin-left: 85px;
+}
+
+#right-header {
+  margin-right: 85px;
+}
+
+header h1 {
+  font-size: 80px;
+  font-weight: 200;
+  margin-bottom: 0px;
+}
+
+header h2 {
+  font-size: 35px;
+}
+
+header p {
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#logo {
+  width: 125px;
+  padding-left: 35px;
+}
+
+.resumeImg {
+  width: 350px;
+  cursor: pointer;
+}
+
+.templateContainer {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.templateContainer p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: 90px;
+}
+.payButton {
+  background-color: rgb(65, 163, 249);
+  border-style: none;
+  color: white;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  outline: 0;
+}
+
+.payButton:hover {
+  background-color: rgb(108, 186, 245);
+  color: black;
+}
+
+#contact-container {
+  background-color: rgb(65, 163, 249);
+  color: white;
+}
+
+#contact-container a {
+  color: white;
+  cursor: pointer;
+}
